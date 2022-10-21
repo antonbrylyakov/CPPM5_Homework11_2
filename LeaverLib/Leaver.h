@@ -7,9 +7,9 @@
 #define LEAVER_API __declspec(dllimport)
 #endif
 
-class Leaver
+class LEAVER_API Leaver
 {
 public:
-	LEAVER_API void leave(std::string name);
+	void leave(std::string name);
 };
 
